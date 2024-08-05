@@ -1,0 +1,72 @@
+.col{
+    display: grid;
+    height: 400px;
+    width: 300px;
+    border: solid 3px; color: rgb(0, 0, 0);
+    margin: 50px;
+    padding: 30px;
+    text-align: center;
+    background-color: antiquewhite;
+    
+   
+}  
+body{
+    background-color: rgb(206, 16, 89)  ;
+    
+}
+    
+
+.dieguito{
+    height: 50px;
+    width: 251px;
+    border: solid 3px;
+    display:grid ;
+    grid-template-columns: repeat(5, 20px);
+    grid-gap: 34px;
+    text-align: center;
+    color: black;
+    font-size: 70px;
+    margin-left:-1px; /* Mueve el texto hacia la derecha; usa valores negativos para moverlo hacia la izquierda */
+    background-color: aquamarine;
+  
+}
+.BingoBig{
+    display: grid;
+    max-width: 1200px;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    width: 100%;
+   
+}
+.tabla {
+   
+    display: grid;
+    flex-direction: column;
+    gap: 5px;
+    width: 250px;
+    height: 280px;
+    background-color: rgb(0, 127, 238);
+    
+}
+
+.fila {
+    display: flex;
+    gap: 7px;
+   
+    
+}
+
+.celda {
+    display: grid;
+    border: 3px solid black;
+    text-align: center;
+    padding: 5px;
+    flex: 1;
+    color: rgb(255, 255, 255);
+
+}
+
+.highlight {
+    background-color: rgb(230, 11, 11); /* Color de resaltado */
+    
+}
